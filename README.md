@@ -77,25 +77,11 @@ Resolved tickets detected (and excluded): Automatically counted based on sentime
 
 Issue Status Predicted: resolved, pending customer reply, escalated based on sentiment and channel.
 
-Optional Enhancements (Not Implemented)
-Personality-aware messaging using Reddit MBTI corpus
+IMPORTANT NOTE :
+### Dataset
+This project uses the [Customer Support on Twitter (CST)](https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter) dataset.  
+Due to size limits, please download `twcs.csv` manually from Kaggle and place it in the root directory.
 
-ML-based classification of support requests
-
-LLM-based message generation
-
-Submission Checklist
- riverline_nba.py script (main pipeline)
-
- requirements.txt (minimal dependencies)
-
- nba_outputs.json and result.csv
-
- This README explaining design and usage
-
- (Optional) Loom video explanation
-
-Credits & Resources
 Customer Support on Twitter (Kaggle)
 
 <<<<<<< HEAD
