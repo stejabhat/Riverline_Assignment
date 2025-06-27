@@ -98,4 +98,8 @@ Submission Checklist
 Credits & Resources
 Customer Support on Twitter (Kaggle)
 
+<<<<<<< HEAD
 TextBlob for sentiment analysis
+=======
+TextBlob for sentiment analysis
+>>>>>>> dd564c6 (Initial commit for Riverline NBA assignment)
