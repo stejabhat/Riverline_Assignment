@@ -81,11 +81,3 @@ IMPORTANT NOTE :
 ### Dataset
 This project uses the [Customer Support on Twitter (CST)](https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter) dataset.  
 Due to size limits, please download `twcs.csv` manually from Kaggle and place it in the root directory.
-
-Customer Support on Twitter (Kaggle)
-
-<<<<<<< HEAD
-TextBlob for sentiment analysis
-=======
-TextBlob for sentiment analysis
->>>>>>> dd564c6 (Initial commit for Riverline NBA assignment)
