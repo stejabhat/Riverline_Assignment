@@ -18,48 +18,36 @@ File Structure
 graphql
 Copy code
 .
-├── twcs.csv                     # Raw dataset (Customer Support on Twitter)
-├── visuals/                     # Generated visualizations (if enabled)
-├── interaction_table.csv        # Cleaned interaction table
-├── tagged_interactions.csv      # Tagged data with sentiment and issue type
-├── nba_outputs.json             # NBA response outputs (JSON format)
-├── result.csv                   # Final result CSV (1000 customer records)
-├── riverline_nba.py             # Single script to run the entire pipeline
-├── requirements.txt             # Required Python packages
-├── README.md                    # Project documentation
-How to Run
-Install Dependencies
+1. twcs.csv                     # Raw dataset (Customer Support on Twitter)
+2. visuals/                     # Generated visualizations (if enabled)
+3. interaction_table.csv        # Cleaned interaction table
+4. tagged_interactions.csv      # Tagged data with sentiment and issue type
+5. nba_outputs.json             # NBA response outputs (JSON format)
+6. result.csv                   # Final result CSV (1000 customer records)
+7. riverline_nba.py             # Single script to run the entire pipeline
+8. requirements.txt             # Required Python packages
+9. README.md                    # Project documentation
+    
+How to Run - Install Dependencies
+bash - pip install -r requirements.txt
 
-bash
-Copy code
-pip install -r requirements.txt
 Ensure the following files are present in the project directory:
-
 twcs.csv (Twitter Customer Support dataset)
 
-Run the main script
-
-bash
-Copy code
-python riverline_nba.py
-This script will:
-
-Load and clean the dataset
-
-Generate customer-agent interaction pairs
-
-Extract sentiment and classify support issues
-
-Filter unresolved tickets
-
-Generate NBA messages and reasoning
-
-Export outputs to nba_outputs.json and result.csv
+Run the main script:
+bash - python riverline_nba.py
+This script will: 
+1. Load and clean the dataset
+2. Generate customer-agent interaction pairs
+3. Extract sentiment and classify support issues.
+4. Filter unresolved tickets
+5. Generate NBA messages and reasoning
+6. Export outputs to nba_outputs.json and result.csv
 
 Assumptions & Design Decisions
 Sentiment Analysis: Used TextBlob for quick sentiment scoring on customer messages.
 
-Support Issue Classification: Simple keyword-based rule engine to detect request types like login issue, refund, delivery, etc.
+Support Issue Classification: "Simple keyword-based rule engine to detect request types like login issue, refund, delivery, etc."
 
 NBA Rule Engine: Based on a ruleset that considers sentiment and issue type to choose the best communication channel:
 
