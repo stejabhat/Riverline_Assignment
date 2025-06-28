@@ -81,3 +81,6 @@ IMPORTANT NOTE :
 ### Dataset
 This project uses the [Customer Support on Twitter (CST)](https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter) dataset.  
 Due to size limits, please download `twcs.csv` manually from Kaggle and place it in the root directory.
+
+### Bonus
+A bonus folder related to the MBTI has been included. However, please be aware that the code quality and completeness may vary. Additionally, due to file size limitations, the corresponding CSV file is not included and must be added manually.
