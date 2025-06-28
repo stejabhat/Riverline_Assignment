@@ -90,5 +90,5 @@ for _, r in df.iterrows():
 with open(NBA_JSON, 'w') as f: json.dump(nba_records, f, indent=2)
 pd.DataFrame(csv_rows).to_csv(RESULT_CSV, index=False)
 
-print(f"✅ NBA records: {len(nba_records)} saved to {NBA_JSON}")
-print(f"📊 Results saved to: {RESULT_CSV}")
+print(f"NBA records: {len(nba_records)} saved to {NBA_JSON}")
+print(f"Results saved to: {RESULT_CSV}")
